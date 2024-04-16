@@ -24,17 +24,25 @@ code {
 @media screen and (max-width: 480px) {
   .react-chatbot-kit-chat-container {
     width: 100vw !important;
-    height: 100vh !important;
+    height: 95vh !important;
   }
 
   .react-chatbot-kit-chat-inner-container {
-    width: 100vw !important;
-    height: 100vh !important;
+    width: 100% !important;
+    height: 100% !important;
   }
   .react-chatbot-kit-chat-bot-message{
     margin-left: 0% !important;
   }
   .react-chatbot-kit-chat-message-container{
     height: 700px !important;
+  }
+  .App {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background: orange;
   }
 }
