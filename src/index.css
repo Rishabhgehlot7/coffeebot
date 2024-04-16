@@ -20,29 +20,3 @@ code {
   align-items: center;
   background: orange;
 }
-
-@media screen and (max-width: 480px) {
-  .react-chatbot-kit-chat-container {
-    width: 100vw !important;
-    height: 95vh !important;
-  }
-
-  .react-chatbot-kit-chat-inner-container {
-    width: 100% !important;
-    height: 100% !important;
-  }
-  .react-chatbot-kit-chat-bot-message{
-    margin-left: 0% !important;
-  }
-  .react-chatbot-kit-chat-message-container{
-    height: 700px !important;
-  }
-  .App {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    background: orange;
-  }
-}
