@@ -27,28 +27,38 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
     }));
   };
   const handleMood = () => {
-    const botMessage = createChatBotMessage(`How's your mood today?`);
+    const botMessage = createChatBotMessage(`How's your mood today?`, {
+      widget: 'MoodWidget',
+
+    });
     setState((prev) => ({
       ...prev,
       messages: [...prev.messages, botMessage],
     }));
+
   };
   const handleGoodMood = () => {
-    const botMessage = createChatBotMessage(`I prefer you Cold Coffee.`);
+    const botMessage = createChatBotMessage(`I prefer you Cold Coffee.`, {
+      widget: "TryItem6",
+    });
     setState((prev) => ({
       ...prev,
       messages: [...prev.messages, botMessage],
     }));
   };
   const handleBadMood = () => {
-    const botMessage = createChatBotMessage(`I prefer you Hot Coffee.`);
+    const botMessage = createChatBotMessage(`I prefer you Hot Coffee.`, {
+      widget: "TryItem7",
+    });
     setState((prev) => ({
       ...prev,
       messages: [...prev.messages, botMessage],
     }));
   };
   const handleNormalMood = () => {
-    const botMessage = createChatBotMessage(`I prefer you cappuccino.`);
+    const botMessage = createChatBotMessage(`I prefer you cappuccino.`, {
+      widget: "TryItem8",
+    });
     setState((prev) => ({
       ...prev,
       messages: [...prev.messages, botMessage],
@@ -125,6 +135,63 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
       messages: [...prev.messages, botMessage],
     }));
   };
+  const handleTodaySpecialYes = () => {
+    const botMessage = createChatBotMessage(`Today's Special is [A Coffee and snack Combo]`, {
+      widget: "TryItem1",
+    });
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+  const handleTodaySpecialNo = () => {
+    const botMessage = createChatBotMessage(`Well than what's the occassion for today's visit`, {
+      widget: "OccassionWidget"
+    });
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+  const handleWorkRelated = () => {
+    const botMessage = createChatBotMessage('Work-related? Our quiet ambiance and free Wi-Fi make it an ideal spot for productivity.', {
+      widget: "TryItem2",
+    });
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+
+  const handleCasualOuting = () => {
+    const botMessage = createChatBotMessage('Planning a casual outing? Our cozy atmosphere and delicious beverages are perfect for that.', {
+      widget: "TryItem3",
+    });
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+
+  const handleOnADate = () => {
+    const botMessage = createChatBotMessage('On a date? Impress your partner with our selection of specialty coffees and romantic ambiance.', {
+      widget: "TryItem4",
+    });
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
+
+  const handleJustMorningCoffee = () => {
+    const botMessage = createChatBotMessage('Just need a morning pick-me-up? Our freshly brewed coffee will kickstart your day.', {
+      widget: "TryItem5",
+    });
+    setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, botMessage],
+    }));
+  };
 
   // Put the handleHello function in the actions object to pass to the MessageParser
   return (
@@ -151,6 +218,12 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
                   handleFeedback,
                   handleThankYou,
                   handleOrder, // Add handleOrder method
+                  handleTodaySpecialYes,
+                  handleTodaySpecialNo,
+                  handleWorkRelated,
+                  handleCasualOuting,
+                  handleOnADate,
+                  handleJustMorningCoffee,
                 },
               });
             })}
