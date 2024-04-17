@@ -14,6 +14,11 @@ const MessageParser = ({ children, actions }) => {
         const item = message.split('order')[1].trim();
         actions.handleOrder(item);
     }
+    else if (message.includes('Try')) {
+        // Extract item from message (e.g., "order cappuccino")
+        const item = message.split('order')[1].trim();
+        actions.handleOrder(item);
+    }
     else if (message.includes('special')) {
         actions.handleSpecialOffers();
     }

@@ -1,10 +1,25 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { CartContext } from '../../CartContext/MainContext';
 
 const TryItem2 = (props) => {
+    let { carts, setCarts, data } = useContext(CartContext);
     const handleOrder = () => {
         props.actions.handleOrder(props.item); // Pass the item name to handleOrder
+        const index = carts.findIndex(item => item.title === data[1].item);
+        if (index !== -1) {
+            const updatedCarts = [...carts];
+            updatedCarts[index].qty += 1;
+            setCarts(updatedCarts);
+        }
+        else {
+            // If the item is not in the cart, add it with quantity 1
+            setCarts([...carts, { title: data[1].item, price: data[1].price, qty: 1 }])
+        }
     }
-
+    const handleTodaySpecialNo = () => {
+        props.actions.handleTodaySpecialNo(props.item); // Pass the item name to handleOrder
+    }
+    console.log(data);
     return (
         <div className='leftM'>
             <button className='btn-bot' onClick={handleOrder}>{`Try ${props.item}`}</button>
@@ -12,4 +27,4 @@ const TryItem2 = (props) => {
     )
 }
 
-export default TryItem2
+export default TryItem2;

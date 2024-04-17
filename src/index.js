@@ -1,13 +1,31 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import App from './App';
+import MainContext from './CartContext/MainContext';
+import './index.css';
+import Cart from './Pages/Cart';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+let router = createBrowserRouter([
+  //Home Page
+  {
+    path: '/', //http://localhost:3000/
+    element: <App />
+  },
+  {
+    path: '/cart',  //  ttp://localhost:3000/cart
+    element: <Cart />
+  }
+
+])
+
 root.render(
   <React.StrictMode>
-    <App />
+    <MainContext>
+      <RouterProvider router={router} />
+    </MainContext>
   </React.StrictMode>
 );
 

@@ -4,11 +4,43 @@ import Occassion from './components/Occassion';
 import TodaySpecial from './components/TodaySpecial';
 import TryItem from './components/TryItem';
 import TryItem1 from './components/TryItem1';
+import TryItem2 from './components/TryItem2';
+import TryItem3 from './components/TryItem3';
+import TryItem4 from './components/TryItem4';
+import TryItem5 from './components/TryItem5';
 import TryItem6 from './components/TryItem6';
 import TryItem7 from './components/TryItem7';
 import TryItem8 from './components/TryItem8';
 
+const data = [
+  {
+    id: 1,
+    item: "Today's Special [A Coffee and snack Combo]",
+    price: 180
+  },
+  {
+    id: 2,
+    item: "Hot Coffee",
+    price: 80,
+  },
+  {
+    id: 3,
+    item: "Delicious Beverages",
+    price: 150,
+  },
+  {
+    id: 4,
+    item: "Coffee with ice cream and pancakes",
+    price: 210,
+  },
+  {
+    id: 5,
+    item: "Brewed Coffee",
+    price: 120,
+  }
+]
 const config = {
+
   initialMessages: [createChatBotMessage(`Hi, Good to see! Welcome to Bella Epoque.`), createChatBotMessage(`Should I suggest our Today's Special for you.`, {
     widget: 'TodaySpecialWidget',
   }),],
@@ -31,23 +63,23 @@ const config = {
     },
     {
       widgetName: 'TryItem1',
-      widgetFunc: (props) => <TryItem1 {...props} item="Today's Special" />,
+      widgetFunc: (props) => <TryItem1 {...props} item={"Today's Special [A Coffee and snack Combo]"} />,
     },
     {
       widgetName: 'TryItem2',
-      widgetFunc: (props) => <TryItem1 {...props} item="hot Coffee" />,
+      widgetFunc: (props) => <TryItem2 {...props} item={"Hot Coffee"} />,
     },
     {
       widgetName: 'TryItem3',
-      widgetFunc: (props) => <TryItem1 {...props} item="delicious beverages" />,
+      widgetFunc: (props) => <TryItem3 {...props} item={"Delicious Beverages"} />,
     },
     {
       widgetName: 'TryItem4',
-      widgetFunc: (props) => <TryItem1 {...props} item="Coffee with ice cream and pancakes" />,
+      widgetFunc: (props) => <TryItem4 {...props} item={"Coffee with ice cream and pancakes"} />,
     },
     {
       widgetName: 'TryItem5',
-      widgetFunc: (props) => <TryItem1 {...props} item="brewed coffee" />,
+      widgetFunc: (props) => <TryItem5 {...props} item={"Brewed Coffee"} />,
     },
     {
       widgetName: 'TryItem6',

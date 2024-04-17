@@ -1,7 +1,9 @@
 // in ActionProvider.jsx
-import React from 'react';
+import React, { useContext } from 'react';
+import { CartContext } from '../CartContext/MainContext';
 
 const ActionProvider = ({ createChatBotMessage, setState, children }) => {
+  let { carts, setCarts, data } = useContext(CartContext);
   const handleHello = () => {
     const botMessage = createChatBotMessage('Hello. Nice to meet you.');
 
@@ -129,7 +131,10 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
     }));
   };
   const handleOrder = (item) => {
-    const botMessage = createChatBotMessage(`You've ordered ${item}. Thank you!`);
+
+    const itemData = data.find(d => d.item === item);
+    const botMessage = createChatBotMessage(`You've ordered ${item}. Price: ₹${itemData.price}. Thank you!`);
+
     setState((prev) => ({
       ...prev,
       messages: [...prev.messages, botMessage],
