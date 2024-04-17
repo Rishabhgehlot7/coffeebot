@@ -20,7 +20,7 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
   };
   // Handles messages that are sent from the user
   const handleTodaySpecial = () => {
-    const botMessage = createChatBotMessage('Today Special is cappuccino');
+    const botMessage = createChatBotMessage('Today Special is Coffee with ice cream and pancakes');
     setState((prev) => ({
       ...prev,
       messages: [...prev.messages, botMessage],
