@@ -133,7 +133,7 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
   const handleOrder = (item) => {
 
     const itemData = data.find(d => d.item === item);
-    const botMessage = createChatBotMessage(`You've ordered ${item}. Price: ₹${itemData.price}. Thank you!`);
+    const botMessage = createChatBotMessage(`You've ordered ${item} only at ₹${itemData.price}. Thank you!`);
 
     setState((prev) => ({
       ...prev,
@@ -141,7 +141,7 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
     }));
   };
   const handleTodaySpecialYes = () => {
-    const botMessage = createChatBotMessage(`Today's Special is [A Coffee and snack Combo]`, {
+    const botMessage = createChatBotMessage(`Today's Special is Cappuccino with pancakes`, {
       widget: "TryItem1",
     });
     setState((prev) => ({

@@ -28,9 +28,9 @@ export default function Header() {
                 <div className={` items-center ${show ? " block" : " hidden"} lg:block flex items-center`}>
                     <ul className='flex items-start gap-3 lg:flex-row lg:items-center flex-col lg:justify-center lg:pt-2'>
                         <li className=' cursor-pointer text-white p-2 hover:text-[#BC6C25] font-bold'>
-                            <Link to={'/#top'}>
+                            <a href={'/#top'}>
                                 Home
-                            </Link>
+                            </a>
                         </li>
                         <li className=' cursor-pointer text-white p-2 hover:text-[#BC6C25] font-bold'>
                             <a href={'/#menu'}>

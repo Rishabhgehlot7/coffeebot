@@ -16,8 +16,8 @@ function App() {
         <main className=" text-white md:w-80 w-64 h-64 relative">
           <div className=" bg-black/70 w-full h-full -rotate-45 rounded-3xl absolute"></div>
           <div className=" absolute top-7 left-9">
-            <h4 className="text-xl text-center pt-4 text-[#BC6C25]">Welcome to Belle Epoque</h4>
-            <h1 className=" md:text-6xl text-4xl text-center font-bold py-1">Cafe King</h1>
+            <h4 className="text-xl text-center pt-4 text-[#BC6C25]">Welcome to</h4>
+            <h1 className=" md:text-4xl text-4xl text-center font-bold py-1">Belle Epoque</h1>
             <p className=" text-sm text-center py-1">your favorrite coffee daily lives.</p>
             <div className=" pt-5 w-full justify-evenly flex">
               <butto className=" px-3 py-2 rounded-full cursor-pointer">Today Special</butto>
@@ -115,7 +115,6 @@ function App() {
             <h4 className=" text-center text-xl text-white">Reviews by Customers</h4>
             <h2 className=" text-center text-5xl font-bold text-white">Testimonials</h2>
           </div>
-          {/* card */}
           <div className=" flex justify-evenly md:flex-row flex-col items-center gap-3 py-5 px-5">
             <div className=" md:w-64 h-96 bg-cover bg-center c2Image rounded-2xl flex justify-end flex-col">
               <div className="bg-black/50 w-full p-3 rounded-b-2xl">
