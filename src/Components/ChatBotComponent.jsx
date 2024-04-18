@@ -8,7 +8,7 @@ import config from '../bot/config';
 const ChatBotComponent = () => {
     const [show, setShow] = useState(false);
     return (
-        <div className='absolute bottom-5 right-5'>{!show ?
+        <div className=' fixed bottom-5 right-5'>{!show ?
             <button onClick={() => setShow(true)} className=' bg-orange-800 text-white p-3 rounded-full'>
                 bot
             </button> :

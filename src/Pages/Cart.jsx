@@ -1,5 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { CartContext } from '../CartContext/MainContext';
+import Footer from '../Components/Footer';
 import Header from '../Components/Header';
 
 
@@ -21,9 +22,9 @@ const Cart = () => {
 
 
     return (
-        <div>
+        <div className=' w-screen h-auto'>
             <Header />
-            <div className="container mx-auto mt-10">
+            <div className="container mx-auto pt-24">
                 <div className="flex shadow-md my-10 flex-col">
                     <div className="w-full bg-white px-10 py-10">
                         <div className="flex justify-between border-b pb-8">
@@ -62,6 +63,7 @@ const Cart = () => {
 
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }
@@ -126,7 +128,7 @@ const CartItem = ({ pdata }) => {
 
                 </div>
                 <span className="text-center w-1/5 font-semibold text-sm">₹{pdata.price}</span>
-                <span className="text-center w-1/5 font-semibold text-sm">₹{pdata.price * pdata.qty}0</span>
+                <span className="text-center w-1/5 font-semibold text-sm">₹{pdata.price * pdata.qty}</span>
             </div>
         </div>
     )

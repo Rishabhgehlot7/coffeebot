@@ -5,6 +5,7 @@ import App from './App';
 import MainContext from './CartContext/MainContext';
 import './index.css';
 import Cart from './Pages/Cart';
+import Reservation from './Pages/Reservation';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,6 +18,10 @@ let router = createBrowserRouter([
   {
     path: '/cart',  //  ttp://localhost:3000/cart
     element: <Cart />
+  },
+  {
+    path: '/Reservation',  //  ttp://localhost:3000/cart
+    element: <Reservation />
   }
 
 ])
