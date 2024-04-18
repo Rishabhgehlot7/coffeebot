@@ -12,7 +12,7 @@ function App() {
   return (
     <div className=" w-screen h-auto">
       <Header />
-      <section className=" w-screen bg-cover bg-center h-screen BgImage justify-center items-center flex">
+      <section id="top" className=" w-screen bg-cover bg-center h-screen BgImage justify-center items-center flex">
         <main className=" text-white md:w-80 w-64 h-64 relative">
           <div className=" bg-black/70 w-full h-full -rotate-45 rounded-3xl absolute"></div>
           <div className=" absolute top-7 left-9">
@@ -27,7 +27,7 @@ function App() {
         </main>
       </section>
 
-      <section className=" w-screen h-auto md:h-screen bg-[#4D3821] md:justify-center md:items-center flex">
+      <section id="about" className=" w-screen h-auto md:h-screen bg-[#4D3821] md:justify-center md:items-center flex">
         <main className=" flex flex-col md:flex-row md:justify-evenly items-center px-5 gap-5 py-5">
           <img src={img1} alt="" className="md:w-[40%] rounded-2xl" />
           <div className=" md:w-[40%]">
@@ -42,7 +42,7 @@ function App() {
         </main>
       </section>
 
-      <section className=" w-screen h-auto md:h-screen bg-[#B78752] pt-10">
+      <section id="" className=" w-screen h-auto md:h-screen bg-[#B78752] pt-10">
         <main>
           <div className=" py-5">
             <h4 className=" text-center text-xl text-white">Creative Baristas</h4>
@@ -78,7 +78,7 @@ function App() {
         </main>
       </section>
 
-      <section className=" w-screen bg-cover bg-center md:h-screen BgImage2 justify-center items-center flex">
+      <section id="menu" className=" w-screen bg-cover bg-center md:h-screen BgImage2 justify-center items-center flex">
         <main className=" flex flex-col md:flex-row md:justify-evenly items-center px-5 gap-5 py-5 w-full">
           <div className="md:w-[40%] w-full bg-black/70 rounded-2xl text-white p-5 py-10">
             <div>
@@ -109,7 +109,7 @@ function App() {
         </main>
       </section>
 
-      <section className=" w-screen h-auto md:h-screen bg-[#7C5C52] pt-10">
+      <section id="reviews" className=" w-screen h-auto md:h-screen bg-[#7C5C52] pt-10">
         <main>
           <div className=" py-5">
             <h4 className=" text-center text-xl text-white">Reviews by Customers</h4>
@@ -152,7 +152,7 @@ function App() {
       </section>
 
 
-      <section className=" w-screen h-auto bg-cover bg-center BgImage3">
+      <section id="contact" className=" w-screen h-auto bg-cover bg-center BgImage3">
         <div className=" py-10 bg-black/70">
           <h4 className=" text-center text-xl text-white">Say Hello</h4>
           <h2 className=" text-center text-5xl font-bold text-white">Contact</h2>

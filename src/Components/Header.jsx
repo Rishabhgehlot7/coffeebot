@@ -28,15 +28,35 @@ export default function Header() {
                 <div className={` items-center ${show ? " block" : " hidden"} lg:block flex items-center`}>
                     <ul className='flex items-start gap-3 lg:flex-row lg:items-center flex-col lg:justify-center lg:pt-2'>
                         <li className=' cursor-pointer text-white p-2 hover:text-[#BC6C25] font-bold'>
-                            <Link to={'/'}>
+                            <Link to={'/#top'}>
                                 Home
                             </Link>
                         </li>
-                        <li className=' cursor-pointer text-white p-2 hover:text-[#BC6C25] font-bold'>Today Special</li>
-                        <li className=' cursor-pointer text-white p-2 hover:text-[#BC6C25] font-bold'>About</li>
-                        <li className=' cursor-pointer text-white p-2 hover:text-[#BC6C25] font-bold'>Our Menu</li>
-                        <li className=' cursor-pointer text-white p-2 hover:text-[#BC6C25] font-bold'>Reviews</li>
-                        <li className=' cursor-pointer text-white p-2 hover:text-[#BC6C25] font-bold'>Contact</li>
+                        <li className=' cursor-pointer text-white p-2 hover:text-[#BC6C25] font-bold'>
+                            <a href={'/#menu'}>
+                                Today Special
+                            </a>
+                        </li>
+                        <li className=' cursor-pointer text-white p-2 hover:text-[#BC6C25] font-bold'>
+                            <a href={'/#about'}>
+                                About
+                            </a>
+                        </li>
+                        <li className=' cursor-pointer text-white p-2 hover:text-[#BC6C25] font-bold'>
+                            <a href={'/#menu'}>
+                                Our Menu
+                            </a>
+                        </li>
+                        <li className=' cursor-pointer text-white p-2 hover:text-[#BC6C25] font-bold'>
+                            <a href={'/#reviews'}>
+                                Reviews
+                            </a>
+                        </li>
+                        <li className=' cursor-pointer text-white p-2 hover:text-[#BC6C25] font-bold'>
+                            <a href={'/#contact'}>
+                                Contact
+                            </a>
+                        </li>
                         <li className=' cursor-pointer border-white border text-white hover:bg-[#BC6C25] hover:border-none p-2 rounded-full px-5 font-bold'>
                             <Link to={'/Reservation'}>
                                 Reservation
