@@ -13,7 +13,7 @@ function App() {
     <div className=" w-screen h-auto">
       <Header />
       <section className=" w-screen bg-cover bg-center h-screen BgImage justify-center items-center flex">
-        <main className=" text-white md:w-80 w-72 h-64 relative">
+        <main className=" text-white md:w-80 w-64 h-64 relative">
           <div className=" bg-black/70 w-full h-full -rotate-45 rounded-3xl absolute"></div>
           <div className=" absolute top-7 left-9">
             <h4 className="text-xl text-center pt-4 text-[#BC6C25]">Welcome to Belle Epoque</h4>

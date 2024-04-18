@@ -9,7 +9,7 @@ export default function Header() {
     const [show, setShow] = useState(false);
     return (
 
-        <main className=' w-screen flex justify-center items-center fixed my-5'>
+        <main className=' w-screen flex justify-center items-center fixed my-5 z-50'>
             <nav className=' w-[90%] h-auto bg-black/50 backdrop-blur-sm flex p-5 rounded-3xl justify-between flex-col lg:flex-row'>
                 <div className=' flex justify-between items-center'>
                     <div>
