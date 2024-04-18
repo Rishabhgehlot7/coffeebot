@@ -1,7 +1,7 @@
 export const data = [
     {
         id: 1,
-        item: "Today's Special [A Coffee and snack Combo]",
+        item: "Cappuccino with pancakes",
         price: 180
     },
     {

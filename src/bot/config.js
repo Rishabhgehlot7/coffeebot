@@ -15,7 +15,7 @@ import TryItem8 from './components/TryItem8';
 const data = [
   {
     id: 1,
-    item: "Today's Special [A Coffee and snack Combo]",
+    item: "Cappuccino with pancakes",
     price: 180
   },
   {
@@ -63,7 +63,7 @@ const config = {
     },
     {
       widgetName: 'TryItem1',
-      widgetFunc: (props) => <TryItem1 {...props} item={"Today's Special [A Coffee and snack Combo]"} />,
+      widgetFunc: (props) => <TryItem1 {...props} item={"Cappuccino with pancakes"} />,
     },
     {
       widgetName: 'TryItem2',
