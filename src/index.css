@@ -27,7 +27,7 @@ code {
 
 .btn-bot {
   padding: 8px;
-  background: #2898ec;
+  background: #9D5A2B;
   border: none;
   color: white;
   border-radius: 4px;
@@ -38,56 +38,78 @@ code {
   margin-left: 16px;
 }
 
-.BgImage{
+.BgImage {
   background-image: url("./images/11.jpg");
-  
-}
-.BgImage2{
-  background-image: url("./images/4.jpg");
-  
-}
-.BgImage3{
-  background-image: url("./images/1.jpg");
-  
-}
-.BgImage4{
-  background-image: url("./images/5.jpg");
-  
-}
-.e1Image{
-  background-image: url("./images/e1.jpg");
-  
-}
-.e2Image{
-  background-image: url("./images/e2.jpg");
-  
-}
-.e3Image{
-  background-image: url("./images/e3.jpg");
-  
-}
-.e4Image{
-  background-image: url("./images/e4.jpg");
-  
+
 }
 
-.c1Image{
+.BgImage2 {
+  background-image: url("./images/4.jpg");
+
+}
+
+.BgImage3 {
+  background-image: url("./images/1.jpg");
+
+}
+
+.BgImage4 {
+  background-image: url("./images/5.jpg");
+
+}
+
+.e1Image {
+  background-image: url("./images/e1.jpg");
+
+}
+
+.e2Image {
+  background-image: url("./images/e2.jpg");
+
+}
+
+.e3Image {
+  background-image: url("./images/e3.jpg");
+
+}
+
+.e4Image {
+  background-image: url("./images/e4.jpg");
+
+}
+
+.c1Image {
   background-image: url("./images/c1.jpg");
-  
+
 }
-.c2Image{
+
+.c2Image {
   background-image: url("./images/c2.jpg");
-  
+
 }
-.c3Image{
+
+.c3Image {
   background-image: url("./images/c3.jpg");
-  
+
 }
-.c4Image{
+
+.c4Image {
   background-image: url("./images/c4.jpg");
-  
+
 }
-.c5Image{
+
+.c5Image {
   background-image: url("./images/c5.jpg");
-  
+
+}
+
+.react-chatbot-kit-chat-bot-message {
+  background-color: #9D5A2B;
+}
+
+.react-chatbot-kit-chat-bot-message-arrow {
+  border-right: 8px solid #9D5A2B;
+}
+.react-chatbot-kit-chat-btn-send{
+  background-color: #9D5A2B;
 }

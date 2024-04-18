@@ -4,13 +4,14 @@ import 'react-chatbot-kit/build/main.css';
 import ActionProvider from '../bot/ActionProvider';
 import MessageParser from '../bot/MessageParser';
 import config from '../bot/config';
+import bot from '../images/bot.jpeg';
 
 const ChatBotComponent = () => {
     const [show, setShow] = useState(false);
     return (
         <div className=' fixed bottom-5 right-5'>{!show ?
-            <button onClick={() => setShow(true)} className=' bg-orange-800 text-white p-3 rounded-full'>
-                bot
+            <button onClick={() => setShow(true)} className='animate-bounce'>
+                <img src={bot} alt="" className='rounded-full w-20 h-20' />
             </button> :
             <div className='relative'>
                 <div className=' absolute z-50 right-5 top-2 text-xl font-bold cursor-pointer' onClick={() => setShow(false)}>X</div>
