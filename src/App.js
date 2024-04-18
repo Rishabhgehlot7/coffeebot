@@ -93,7 +93,7 @@ function App() {
               })}
             </div>
           </div>
-          <div className="md:w-[40%] w-full bg-black/50 rounded-2xl text-white p-5 py-10">
+          <div className="md:w-[40%] w-full bg-black/70 rounded-2xl text-white p-5 py-10">
             <div>
               <h3 className=" text-3xl text-center font-bold">Favourite Menu</h3>
               <p className=" text-xl text-center">Coffee</p>
