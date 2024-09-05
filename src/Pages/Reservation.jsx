@@ -21,7 +21,7 @@ const Reservation = () => {
                     </form>
                     <div className=" md:w-[40%] md:h-[500px] h-96 bg-cover bg-center e1Image rounded-2xl flex justify-end flex-col">
                         <div className="bg-black/50 w-full p-3 rounded-b-2xl">
-                            <h2 className=" text-3xl font-bold text-white">Ravi<span className="mx-1 text-sm bg-[#B78752] px-1 rounded-lg">Senior</span></h2>
+                            <h2 className=" text-3xl font-bold text-white">Alex<span className="mx-1 text-sm bg-[#B78752] px-1 rounded-lg">Senior</span></h2>
                             <p className=" text-white">your favourite coffee daily lives tempor.</p>
                         </div>
                     </div>

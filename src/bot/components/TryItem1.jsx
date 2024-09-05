@@ -14,8 +14,7 @@ const TryItem1 = (props) => {
         }
         else {
             // If the item is not in the cart, add it with quantity 1
-            setCarts([...carts, { title: data[0].item, price: data[0].price, qty: 1 }])
-
+            setCarts([...carts, { title: data[0].item, price: data[0].price, qty: 1 }]);
         }
     }
     const handleTodaySpecialNo = () => {

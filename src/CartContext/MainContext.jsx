@@ -28,6 +28,11 @@ export default function MainContext({ children }) {
             id: 5,
             item: "Brewed Coffee",
             price: 120,
+        },
+        {
+            id: 6,
+            item: "Cappuccino with pancakes",
+            price: 120,
         }
     ]
 

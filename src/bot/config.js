@@ -63,7 +63,7 @@ const config = {
     },
     {
       widgetName: 'TryItem1',
-      widgetFunc: (props) => <TryItem1 {...props} item={"Cappuccino with pancakes"} />,
+      widgetFunc: (props) => <TryItem1 {...props} item={"Cappuccino with pancakes"} c/>,
     },
     {
       widgetName: 'TryItem2',

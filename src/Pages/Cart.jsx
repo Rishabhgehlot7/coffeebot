@@ -23,7 +23,7 @@ const Cart = () => {
 
 
     return (
-        <div className=' w-screen h-auto bg-black/50'>
+        <div className=' w-screen h-auto'>
             <Header />
             <div className="container mx-auto pt-24">
                 <div className="flex shadow-md my-10 flex-col">

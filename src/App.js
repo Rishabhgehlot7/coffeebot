@@ -52,25 +52,25 @@ function App() {
           <div className=" flex justify-evenly md:flex-row flex-col items-center gap-3 py-5">
             <div className=" md:w-64 h-96 bg-cover bg-center e2Image rounded-2xl flex justify-end flex-col">
               <div className="bg-black/50 w-full p-3 rounded-b-2xl">
-                <h2 className=" text-3xl font-bold text-white">Rishabh <span className="mx-1 text-sm bg-[#B78752] px-1 rounded-lg">Boss</span></h2>
+                <h2 className=" text-3xl font-bold text-white">Alex<span className="mx-1 text-sm bg-[#B78752] px-1 rounded-lg">Boss</span></h2>
                 <p className=" text-white">your favourite coffee daily lives tempor.</p>
               </div>
             </div>
             <div className=" md:w-64 h-96 bg-cover bg-center e3Image rounded-2xl flex justify-end flex-col">
               <div className="bg-black/50 w-full p-3 rounded-b-2xl">
-                <h2 className=" text-3xl font-bold text-white">Rahul<span className="mx-1 text-sm bg-[#B78752] px-1 rounded-lg">Mananger</span></h2>
+                <h2 className=" text-3xl font-bold text-white">Leo<span className="mx-1 text-sm bg-[#B78752] px-1 rounded-lg">Mananger</span></h2>
                 <p className=" text-white">your favourite coffee daily lives tempor.</p>
               </div>
             </div>
             <div className=" md:w-64 h-96 bg-cover bg-center e1Image rounded-2xl flex justify-end flex-col">
               <div className="bg-black/50 w-full p-3 rounded-b-2xl">
-                <h2 className=" text-3xl font-bold text-white">Ravi<span className="mx-1 text-sm bg-[#B78752] px-1 rounded-lg">Senior</span></h2>
+                <h2 className=" text-3xl font-bold text-white">Ivan<span className="mx-1 text-sm bg-[#B78752] px-1 rounded-lg">Senior</span></h2>
                 <p className=" text-white">your favourite coffee daily lives tempor.</p>
               </div>
             </div>
             <div className=" md:w-64 h-96 bg-cover bg-center e4Image rounded-2xl flex justify-end flex-col">
               <div className="bg-black/50 w-full p-3 rounded-b-2xl">
-                <h2 className=" text-3xl font-bold text-white">Riya<span className="mx-1 text-sm bg-[#B78752] px-1 rounded-lg">Baristas</span></h2>
+                <h2 className=" text-3xl font-bold text-white">Sia<span className="mx-1 text-sm bg-[#B78752] px-1 rounded-lg">Baristas</span></h2>
                 <p className=" text-white">your favourite coffee daily lives tempor.</p>
               </div>
             </div>
@@ -118,31 +118,31 @@ function App() {
           <div className=" flex justify-evenly md:flex-row flex-col items-center gap-3 py-5 px-5">
             <div className=" md:w-64 h-96 bg-cover bg-center c2Image rounded-2xl flex justify-end flex-col">
               <div className="bg-black/50 w-full p-3 rounded-b-2xl">
-                <h2 className=" text-3xl font-bold text-white">Esha</h2>
+                <h2 className=" text-3xl font-bold text-white">Lily</h2>
                 <p className=" text-white">The coffee here is amazing! I've never tasted anything like it before. Highly recommended!.</p>
               </div>
             </div>
             <div className=" md:w-64 h-96 bg-cover bg-center c3Image rounded-2xl flex justify-end flex-col">
               <div className="bg-black/50 w-full p-3 rounded-b-2xl">
-                <h2 className=" text-3xl font-bold text-white">Anjali</h2>
+                <h2 className=" text-3xl font-bold text-white">Mia</h2>
                 <p className=" text-white">This is my favorite coffee shop in town. The atmosphere is cozy, and the staff is always friendly.</p>
               </div>
             </div>
             <div className=" md:w-64 h-96 bg-cover bg-center c1Image rounded-2xl flex justify-end flex-col">
               <div className="bg-black/50 w-full p-3 rounded-b-2xl">
-                <h2 className=" text-3xl font-bold text-white">Juhi</h2>
+                <h2 className=" text-3xl font-bold text-white">Olivia</h2>
                 <p className=" text-white">I love coming here to work on my projects. The free Wi-Fi and delicious coffee make it the perfect spot.</p>
               </div>
             </div>
             <div className=" md:w-64 h-96 bg-cover bg-center c4Image rounded-2xl flex justify-end flex-col">
               <div className="bg-black/50 w-full p-3 rounded-b-2xl">
-                <h2 className=" text-3xl font-bold text-white">Ronit</h2>
+                <h2 className=" text-3xl font-bold text-white">Jack</h2>
                 <p className=" text-white">This is my favorite coffee shop in town. The atmosphere is cozy, and the staff is always friendly.</p>
               </div>
             </div>
             <div className=" md:w-64 h-96 bg-cover bg-center c5Image rounded-2xl flex justify-end flex-col">
               <div className="bg-black/50 w-full p-3 rounded-b-2xl">
-                <h2 className=" text-3xl font-bold text-white">Yash</h2>
+                <h2 className=" text-3xl font-bold text-white">Henry</h2>
                 <p className=" text-white">The coffee here is amazing! I've never tasted anything like it before. Highly recommended!.</p>
               </div>
             </div>
